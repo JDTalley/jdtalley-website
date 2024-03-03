@@ -1,0 +1,11 @@
+.grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 10% 15% auto auto 10%;
+  grid-template-rows: 15% 45px auto 15%;
+}
+
+.header {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}

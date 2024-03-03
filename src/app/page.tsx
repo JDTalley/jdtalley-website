@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import HomeGrid from '@/components/HomeGrid';
 
 export default function Home() {
-  return <h1>Dakota Talley</h1>;
+  return (
+    <div className={styles.full}>
+      <HomeGrid />
+    </div>
+  );
 }
