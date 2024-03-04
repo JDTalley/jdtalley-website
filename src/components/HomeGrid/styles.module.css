@@ -1,11 +1,12 @@
 .grid {
   height: 100%;
   display: grid;
-  grid-template-columns: 10% 15% auto auto 10%;
-  grid-template-rows: 15% 45px auto 15%;
+  grid-template-columns: 15% 15% auto auto 10%;
+  grid-template-rows: 5% 10% 80% 5%;
 }
 
-.header {
+.projects {
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
 }

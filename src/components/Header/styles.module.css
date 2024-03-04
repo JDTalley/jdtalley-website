@@ -1,0 +1,7 @@
+.header {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    display: flex;
+    justify-content: space-between;
+  }

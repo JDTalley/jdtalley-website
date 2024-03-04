@@ -1,0 +1,9 @@
+.list {
+    overflow-y: auto;
+    grid-column-end: 3;
+}
+
+.list ul {
+    max-height: 100%;
+    list-style: none;
+}
